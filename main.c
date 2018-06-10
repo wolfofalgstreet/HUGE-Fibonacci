@@ -1,7 +1,5 @@
 //
-//  Fibonacci.c
 //  Isaias Perez
-//  NID: is352549
 //
 
 #include <stdio.h>
