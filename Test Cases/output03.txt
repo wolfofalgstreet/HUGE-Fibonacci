@@ -1,0 +1,11 @@
+Overflow style:
+2147483647 + 1 = -2147483648
+
+HugeInteger style:
+2147483647 + 1 = 2147483648
+
+Overflow style:
+4294967295 + 1 = 0
+
+HugeInteger style:
+4294967295 + 1 = 4294967296
