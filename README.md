@@ -202,7 +202,9 @@ create a file called `whatever.txt` that contains the output from your program:
 
 When the program begins, it will ask for the number of fibs to calculate. It then will proceed to linearly reach the `nth` fibonacci number.
 
+## Demo
 
+![](https://www.easymachinelearning.net/GitHub/gifs/fib_demo.gif)
 
 
 
