@@ -1,4 +1,5 @@
-# Fibonacci
+
+# HUGE-Fibonacci   ![](https://img.shields.io/github/license/vegaisaias/wordsearch)
 
 Program avoids repetitive computation by computing the sequence linearly form the bottom up: `F(0)` through `F(n)`. This implementation also overcomes the limitations of a 32-bit integer in C, overflow is avoided by representing integers as arrays of individual digits.
 
