@@ -170,6 +170,9 @@ when doing so.
 * **Returns:** A pointer to a `HugeInteger` representing `F(n)`, or `NULL` if dynamic memory allocation
 fails.
 
+# Requirements
+
+You must have the gcc compikler installed on your machine.
 
 # Compilation and Testing (Linux/Mac Command Line) & Windows
 
@@ -185,10 +188,10 @@ By default, this will produce an executable file called a.out, which can ran by 
 ```
 
 ## Windows
-This will produce an a.exe fule, which can be ran by typing:
-'''c
+This will produce an a.exe file, which can be ran by typing:
+```c
 a.exe
-'''
+```
 
 ## Linux & Windows
 If you want to name the executable file something else, use:
