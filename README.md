@@ -171,7 +171,7 @@ when doing so.
 fails.
 
 
-# Compilation and Testing (Linux/Mac Command Line) & Windowas
+# Compilation and Testing (Linux/Mac Command Line) & Windows
 
 To compile the source file (.c files) at the command line:
 ```c
@@ -179,10 +179,16 @@ gcc main.c
 ```
 ## Linux
 
-By default, this will produce an executable file called a.out, which can run by typing:
+By default, this will produce an executable file called a.out, which can ran by typing:
 ```c
 ./a.out
 ```
+
+## Windows'=
+This will produce an a.exe fule, which can be ran by typing:
+'''c
+a.exe
+'''
 
 ## Linux & Windows
 If you want to name the executable file something else, use:
