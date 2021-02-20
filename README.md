@@ -172,7 +172,7 @@ fails.
 
 # Requirements
 
-You must have the gcc compikler installed on your machine.
+You must have the gcc compiler installed on your machine.
 
 # Compilation and Testing (Linux/Mac Command Line) & Windows
 
