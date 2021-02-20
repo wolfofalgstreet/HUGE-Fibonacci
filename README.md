@@ -109,7 +109,7 @@ mentioned above.
 HugeInteger *parseString(char *str);
 ```
 
-* **Description:** Convert a number from string format to `HugeInteger` format. 
+* **Description:** Convert a number from string format to `HugeInteger` format.
 * **Notes:** : If the empty string (“”) is passed to this function, treat it as a zero (“0”). If any
 dynamic memory allocation functions fail within this function, or if `str` is `NULL`, `return NULL`, again trying to avoid memory leaks when doing so. It is assumed the string will only contain ASCII digits ‘0’ through ‘9’, and that there will be no leading zeros in the string.
 * **Returns:** A pointer to the newly allocated `HugeInteger struct`, or `NULL` if dynamic memory
@@ -171,28 +171,35 @@ when doing so.
 fails.
 
 
-# Compilation and Testing (Linux/Mac Command Line)
+# Compilation and Testing (Linux/Mac Command Line) & Windowas
 
 To compile the source file (.c files) at the command line:
 ```c
-gcc main.c 
+gcc main.c
 ```
+## Linux
 
 By default, this will produce an executable file called a.out, which can run by typing:
 ```c
 ./a.out
 ```
 
+## Linux & Windows
 If you want to name the executable file something else, use:
 ```c
 gcc Fibonacci.c testcase01.c -o fib.exe
 ```
 
+## Linux
 ...and then run the program using:
 ```c
 ./fib.exe
 ```
-
+## Windows
+...and then run the program using:
+```c
+fib.exe
+```
 Running the program could potentially dump a lot of output to the screen. If you want to redirect your
 output to a text file in Linux, it’s easy. Just run the program using the following command, which will
 create a file called `whatever.txt` that contains the output from your program:
@@ -206,10 +213,3 @@ When the program begins, it will ask for the number of fibs to calculate. It the
 ## Demo
 
 ![](https://www.easymachinelearning.net/GitHub/gifs/fib_demo.gif)
-
-
-
-
-
-
-
