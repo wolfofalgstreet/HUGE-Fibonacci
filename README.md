@@ -184,7 +184,7 @@ By default, this will produce an executable file called a.out, which can ran by 
 ./a.out
 ```
 
-## Windows'=
+## Windows
 This will produce an a.exe fule, which can be ran by typing:
 '''c
 a.exe
